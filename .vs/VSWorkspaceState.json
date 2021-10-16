@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\fixtures",
+    "\\cypress\\plugins",
+    "\\cypress\\support",
+    "\\cypress\\support\\step_definitions"
+  ],
+  "SelectedNode": "\\cypress\\support",
+  "PreviewInSolutionExplorer": false
+}

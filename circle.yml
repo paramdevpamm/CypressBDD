@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cypress/base:12
-    working_directory: ~/cypress-cucumber-preprocessor
+    working_directory: ~/cucumber-preprocessor
     steps:
       - checkout
       - run:
