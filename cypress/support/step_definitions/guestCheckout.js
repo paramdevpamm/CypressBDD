@@ -3,19 +3,19 @@
 const { Then, When } = require("../../../lib/resolveStepDefinition");
 
 //Navigate to URl
-const SignIn = '.rd-ui-button_primary';
-const GuestCheckIn = '.rd-ui-button_secondary';
+const SignIn = '[data-test-rd-ui-button="primary"]';
+const GuestCheckIn = '[data-test-rd-ui-button="secondary"]';
 const FullName = '#ember280';
 const Email = '#ember284';
 const Phone = '.fde-phone-number-control_input';
 const StartOrdering = '#ember297';
 const headerGuestName = 'h1.fde-restaurant-header_title';
 const firstOption = '.fde-restaurant-menu-item_options';
-const addButtonToAddOrder = '.fde-customize-order-item-button';
-const placeOrderButton = '[id="fde-checkout-button"]';
+const addButtonToAddOrder = '[data-test-order-item-options-add-modify-button]';
+const placeOrderButton = '[data-test-checkout-button]';
 const cutleryHeading = '[id="ember349"]';
-const doneButton = '[id="ember454"]';
-const editOrderButton = '.fde-group-checkout-confirmation_edit-order button';
+const doneButton = '[data-test-cutlery-submit]';
+const editOrderButton = '[data-ember-action]';
 
 Given('I Navigate to {string}', (url) => {
   cy.visit(url);
