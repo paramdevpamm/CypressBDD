@@ -45,6 +45,11 @@ You can follow the documentation below, or if you prefer to hack on a working ex
 
 ## Get started
 
+## For quick run
+npm ci
+npm install cypress --save-dev
+node_modules\.bin\cypress open
+
 ### Installation
 
 Install the plugin by running:
